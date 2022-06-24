@@ -1035,7 +1035,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/217778/374249/113537Assembly"
+                            "ioValue": "source/217778/374249/882220Difference"
                         }
                     ],
                     "selectedColorIndex": "16"
@@ -1163,6 +1163,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 882220,
+                    "ap2ID": 992071
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 402040,
@@ -1188,13 +1195,6 @@
                     "ap2Primary": false,
                     "ap1ID": 356715,
                     "ap2ID": 113537
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 113537,
-                    "ap2ID": 992071
                 },
                 {
                     "ap1Name": "geometry",
