@@ -593,8 +593,8 @@
         {
             "atomType": "Molecule",
             "name": "Outlet",
-            "x": 0.23346560846560846,
-            "y": 0.4707692307692308,
+            "x": 0.2394179894179894,
+            "y": 0.47692307692307695,
             "uniqueID": 387877,
             "ioValues": [
                 {
@@ -887,8 +887,8 @@
         {
             "atomType": "Molecule",
             "name": "Cyclone",
-            "x": 0.24338624338624337,
-            "y": 0.7107692307692308,
+            "x": 0.24537037037037038,
+            "y": 0.6953846153846154,
             "uniqueID": 575280,
             "ioValues": [
                 {
@@ -1407,8 +1407,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8101851851851852,
-                    "y": 0.8092307692307692,
+                    "x": 0.8082010582010583,
+                    "y": 0.8184615384615385,
                     "uniqueID": 594717,
                     "ioValues": [
                         {
@@ -1425,7 +1425,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -2
+                            "ioValue": -1.5
                         }
                     ]
                 }
@@ -1851,5 +1851,5 @@
     "simplify": false,
     "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.201"
+    "circleSegmentSize": "0.051"
 }
