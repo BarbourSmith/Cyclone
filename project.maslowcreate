@@ -6,36 +6,36 @@
     "uniqueID": 217778,
     "ioValues": [
         {
-            "name": "Hc",
-            "ioValue": 20.8
+            "name": "Dc",
+            "ioValue": 23
         },
         {
-            "name": "Sc",
-            "ioValue": 25.9
+            "name": "Hc",
+            "ioValue": 11.5
         },
         {
             "name": "Bc",
-            "ioValue": 10.4
+            "ioValue": 5.8
         },
         {
-            "name": "DS",
-            "ioValue": 10.4
-        },
-        {
-            "name": "Zc",
-            "ioValue": 83
+            "name": "Sc",
+            "ioValue": 14.4
         },
         {
             "name": "Di",
-            "ioValue": 20.8
+            "ioValue": 11.5
         },
         {
             "name": "Lc",
-            "ioValue": 83
+            "ioValue": 46
         },
         {
-            "name": "Dc",
-            "ioValue": 41.5
+            "name": "Zc",
+            "ioValue": 46
+        },
+        {
+            "name": "DS",
+            "ioValue": 5.8
         }
     ],
     "topLevel": true,
@@ -67,21 +67,21 @@
         {
             "atomType": "Molecule",
             "name": "Inlet",
-            "x": 0.23677248677248677,
-            "y": 0.24923076923076923,
+            "x": 0.23809523809523808,
+            "y": 0.2523076923076923,
             "uniqueID": 945368,
             "ioValues": [
                 {
                     "name": "Hc",
-                    "ioValue": 20.8
-                },
-                {
-                    "name": "Bc",
-                    "ioValue": 10.4
+                    "ioValue": 11.5
                 },
                 {
                     "name": "Dc",
-                    "ioValue": 41.5
+                    "ioValue": 23
+                },
+                {
+                    "name": "Bc",
+                    "ioValue": 5.8
                 }
             ],
             "topLevel": false,
@@ -95,11 +95,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 20.8
+                            "ioValue": 11.5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10.4
+                            "ioValue": 5.8
                         }
                     ]
                 },
@@ -124,15 +124,15 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 20.75
+                            "ioValue": 11.5
                         }
                     ]
                 },
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.48412698412698413,
-                    "y": 0.18153846153846154,
+                    "x": 0.48214285714285715,
+                    "y": 0.1723076923076923,
                     "uniqueID": 859432,
                     "ioValues": [
                         {
@@ -151,35 +151,35 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "H+2",
-                    "x": 0.18849206349206352,
-                    "y": 0.5692307692307692,
-                    "uniqueID": 649807,
-                    "ioValues": [
-                        {
-                            "name": "H",
-                            "ioValue": 20.8
-                        }
-                    ],
-                    "currentEquation": "H+2"
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.2830687830687831,
-                    "y": 0.5292307692307692,
+                    "x": 0.28240740740740744,
+                    "y": 0.5169230769230769,
                     "uniqueID": 513668,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 22.8
+                            "ioValue": 14.25
                         },
                         {
                             "name": "y length",
-                            "ioValue": 12.4
+                            "ioValue": 8.55
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "H+2.75",
+                    "x": 0.18915343915343916,
+                    "y": 0.5753846153846154,
+                    "uniqueID": 649807,
+                    "ioValues": [
+                        {
+                            "name": "H",
+                            "ioValue": 11.5
+                        }
+                    ],
+                    "currentEquation": "H+2.75"
                 },
                 {
                     "atomType": "Extrude",
@@ -194,7 +194,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 20.75
+                            "ioValue": 11.5
                         }
                     ]
                 },
@@ -209,8 +209,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5376984126984127,
-                    "y": 0.4707692307692308,
+                    "x": 0.5357142857142857,
+                    "y": 0.4861538461538462,
                     "uniqueID": 299013,
                     "ioValues": [
                         {
@@ -250,17 +250,17 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "B+2",
-                    "x": 0.21626984126984128,
-                    "y": 0.7692307692307692,
+                    "name": "B+2.75",
+                    "x": 0.20701058201058203,
+                    "y": 0.7815384615384615,
                     "uniqueID": 246523,
                     "ioValues": [
                         {
                             "name": "B",
-                            "ioValue": 10.4
+                            "ioValue": 5.8
                         }
                     ],
-                    "currentEquation": "B+2"
+                    "currentEquation": "B+2.75"
                 },
                 {
                     "atomType": "Equation",
@@ -271,7 +271,7 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 41.5
+                            "ioValue": 23
                         }
                     ],
                     "currentEquation": "D/2"
@@ -285,7 +285,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 22.8
+                            "ioValue": 14.25
                         }
                     ],
                     "currentEquation": "H/-2"
@@ -307,31 +307,31 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 14.55
+                            "ioValue": 8.725
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -11.4
+                            "ioValue": -7.125
                         }
                     ]
                 },
                 {
                     "atomType": "Equation",
-                    "name": "D/2-W/2",
-                    "x": 0.40145502645502645,
-                    "y": 0.8953846153846153,
+                    "name": "D/2-W/2+1.5",
+                    "x": 0.408068783068783,
+                    "y": 0.8799999999999999,
                     "uniqueID": 175514,
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 41.5
+                            "ioValue": 23
                         },
                         {
                             "name": "W",
-                            "ioValue": 12.4
+                            "ioValue": 8.55
                         }
                     ],
-                    "currentEquation": "D/2-W/2"
+                    "currentEquation": "D/2-W/2+1.5"
                 },
                 {
                     "atomType": "Extrude",
@@ -389,7 +389,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 41.5
+                            "ioValue": 23
                         }
                     ]
                 }
@@ -452,6 +452,13 @@
                     "ap2ID": 175514
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 513668,
+                    "ap2ID": 826611
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "x length",
                     "ap2Primary": false,
@@ -464,13 +471,6 @@
                     "ap2Primary": false,
                     "ap1ID": 649807,
                     "ap2ID": 778679
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 513668,
-                    "ap2ID": 826611
                 },
                 {
                     "ap1Name": "geometry",
@@ -599,11 +599,11 @@
             "ioValues": [
                 {
                     "name": "Di",
-                    "ioValue": 20.8
+                    "ioValue": 11.5
                 },
                 {
                     "name": "Sc",
-                    "ioValue": 25.9
+                    "ioValue": 14.4
                 }
             ],
             "topLevel": false,
@@ -617,7 +617,7 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 20.8
+                            "ioValue": 11.5
                         }
                     ],
                     "currentEquation": "D+2"
@@ -639,7 +639,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 22.8
+                            "ioValue": 13.5
                         }
                     ]
                 },
@@ -652,7 +652,7 @@
                     "ioValues": [
                         {
                             "name": "S",
-                            "ioValue": 25.9
+                            "ioValue": 14.4
                         }
                     ],
                     "currentEquation": "-1*S"
@@ -670,7 +670,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": -25.9
+                            "ioValue": -14.4
                         }
                     ]
                 },
@@ -695,7 +695,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": -25.9
+                            "ioValue": -14.4
                         }
                     ]
                 },
@@ -708,7 +708,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20.8
+                            "ioValue": 11.5
                         }
                     ]
                 },
@@ -893,19 +893,19 @@
             "ioValues": [
                 {
                     "name": "Lc",
-                    "ioValue": 83
-                },
-                {
-                    "name": "Dc",
-                    "ioValue": 41.5
+                    "ioValue": 46
                 },
                 {
                     "name": "Zc",
-                    "ioValue": 83
+                    "ioValue": 46
+                },
+                {
+                    "name": "Dc",
+                    "ioValue": 23
                 },
                 {
                     "name": "Ds",
-                    "ioValue": 10.4
+                    "ioValue": 5.8
                 }
             ],
             "topLevel": false,
@@ -927,7 +927,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 41.5
+                            "ioValue": 23
                         }
                     ]
                 },
@@ -952,7 +952,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": -83
+                            "ioValue": -46
                         }
                     ]
                 },
@@ -973,7 +973,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 83
+                            "ioValue": 46
                         }
                     ],
                     "currentEquation": "-1*L"
@@ -999,7 +999,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -83
+                            "ioValue": -46
                         }
                     ]
                 },
@@ -1071,7 +1071,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10.4
+                            "ioValue": 5.8
                         }
                     ]
                 },
@@ -1113,7 +1113,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -166
+                            "ioValue": -92
                         }
                     ]
                 },
@@ -1125,12 +1125,12 @@
                     "uniqueID": 747024,
                     "ioValues": [
                         {
-                            "name": "Z",
-                            "ioValue": 83
+                            "name": "L",
+                            "ioValue": -46
                         },
                         {
-                            "name": "L",
-                            "ioValue": -83
+                            "name": "Z",
+                            "ioValue": 46
                         }
                     ],
                     "currentEquation": "L-Z"
@@ -1851,5 +1851,5 @@
     "simplify": false,
     "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.051"
+    "circleSegmentSize": "0.001"
 }
