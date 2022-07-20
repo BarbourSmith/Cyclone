@@ -1614,7 +1614,7 @@
             "atomType": "Input",
             "name": "Zc",
             "x": 0.013333333333333334,
-            "y": 0.7870370370370371,
+            "y": 0.7592592592592592,
             "uniqueID": 327564,
             "ioValues": []
         },
@@ -1652,7 +1652,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 46
+                    "ioValue": 5.8
                 }
             ]
         },
@@ -1807,17 +1807,17 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 327564,
-            "ap2ID": 583637
-        },
-        {
-            "ap1Name": "number or geometry",
             "ap2Name": "Ds",
             "ap2Primary": false,
             "ap1ID": 878124,
             "ap2ID": 575280
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 878124,
+            "ap2ID": 583637
         },
         {
             "ap1Name": "geometry",
