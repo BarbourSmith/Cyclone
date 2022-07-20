@@ -1627,12 +1627,84 @@
             "ioValues": []
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4642857142857143,
+            "y": 0.7932098765432098,
+            "uniqueID": 542690,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/217778/583637Circle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": -20
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.37037037037037035,
+            "y": 0.8425925925925926,
+            "uniqueID": 583637,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 46
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7506613756613756,
+            "y": 0.611111111111111,
+            "uniqueID": 841885,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "source/217778/192683Move"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "source/217778/858068Assembly"
+                }
+            ]
+        },
+        {
             "atomType": "Input",
             "name": "Inlet Side",
             "x": 0.013333333333333334,
             "y": 0.9691358024691358,
             "uniqueID": 174919,
             "ioValues": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5853174603174603,
+            "y": 0.7746913580246914,
+            "uniqueID": 192683,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/217778/542690Extrude"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -90
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -1643,7 +1715,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "source/217778/858068Assembly"
+                    "ioValue": "source/217778/841885Difference"
                 }
             ]
         }
@@ -1707,10 +1779,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 858068,
-            "ap2ID": 737235
+            "ap2ID": 841885
         },
         {
             "ap1Name": "number or geometry",
@@ -1735,10 +1807,38 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 327564,
+            "ap2ID": 583637
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "Ds",
             "ap2Primary": false,
             "ap1ID": 878124,
             "ap2ID": 575280
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 542690,
+            "ap2ID": 192683
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 583637,
+            "ap2ID": 542690
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 841885,
+            "ap2ID": 737235
         },
         {
             "ap1Name": "number or geometry",
@@ -1746,6 +1846,13 @@
             "ap2Primary": false,
             "ap1ID": 174919,
             "ap2ID": 945368
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 192683,
+            "ap2ID": 841885
         }
     ],
     "fileTypeVersion": 1,
