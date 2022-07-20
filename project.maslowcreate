@@ -349,6 +349,10 @@
             "uniqueID": 945368,
             "ioValues": [
                 {
+                    "name": "Inlet Side",
+                    "ioValue": -1
+                },
+                {
                     "name": "Hc",
                     "ioValue": 11.5
                 },
@@ -359,10 +363,6 @@
                 {
                     "name": "Bc",
                     "ioValue": 5.8
-                },
-                {
-                    "name": "Inlet Side",
-                    "ioValue": -1
                 }
             ],
             "topLevel": false,
@@ -612,16 +612,16 @@
                     "uniqueID": 175514,
                     "ioValues": [
                         {
+                            "name": "S",
+                            "ioValue": -1
+                        },
+                        {
                             "name": "D",
                             "ioValue": 23
                         },
                         {
                             "name": "W",
                             "ioValue": 8.55
-                        },
-                        {
-                            "name": "S",
-                            "ioValue": -1
                         }
                     ],
                     "currentEquation": "S(D/2-W/2+1.5)"
@@ -1619,23 +1619,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.7996031746031745,
-            "y": 0.30153846153846153,
-            "uniqueID": 885180,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": "source/217778/858068Assembly"
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": "source/217778/103516Move"
-                }
-            ]
-        },
-        {
             "atomType": "Input",
             "name": "DS",
             "x": 0.013333333333333334,
@@ -1644,59 +1627,12 @@
             "ioValues": []
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5519429024583664,
-            "y": 0.7723076923076924,
-            "uniqueID": 353187,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 500
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 500
-                }
-            ]
-        },
-        {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.906084656084656,
-            "y": 0.3138461538461539,
-            "uniqueID": 179338,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "source/217778/885180Intersection"
-                }
-            ]
-        },
-        {
             "atomType": "Input",
             "name": "Inlet Side",
             "x": 0.013333333333333334,
             "y": 0.9691358024691358,
             "uniqueID": 174919,
             "ioValues": []
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.7018239492466296,
-            "y": 0.6799999999999999,
-            "uniqueID": 964627,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "source/217778/353187Rectangle"
-                },
-                {
-                    "name": "height",
-                    "ioValue": -195
-                }
-            ]
         },
         {
             "atomType": "Output",
@@ -1710,41 +1646,6 @@
                     "ioValue": "source/217778/858068Assembly"
                 }
             ]
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.7969865186360031,
-            "y": 0.8092307692307692,
-            "uniqueID": 103516,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "source/217778/964627Extrude"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -180
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Export as JSON",
-            "x": 0.8865979381443299,
-            "y": 0.8799999999999999,
-            "uniqueID": 906010,
-            "projectID": "230192765",
-            "ioValues": [],
-            "simplify": false
         }
     ],
     "allConnectors": [
@@ -1812,13 +1713,6 @@
             "ap2ID": 737235
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 858068,
-            "ap2ID": 885180
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Lc",
             "ap2Primary": false,
@@ -1840,20 +1734,6 @@
             "ap2ID": 575280
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 885180,
-            "ap2ID": 179338
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": 885180,
-            "ap2ID": 906010
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Ds",
             "ap2Primary": false,
@@ -1861,32 +1741,11 @@
             "ap2ID": 575280
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 353187,
-            "ap2ID": 964627
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Inlet Side",
             "ap2Primary": false,
             "ap1ID": 174919,
             "ap2ID": 945368
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 964627,
-            "ap2ID": 103516
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 103516,
-            "ap2ID": 885180
         }
     ],
     "fileTypeVersion": 1,
